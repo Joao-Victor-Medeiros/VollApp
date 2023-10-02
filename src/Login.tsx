@@ -7,12 +7,14 @@ import {InputText} from "./components/InputText";
 import { createStackNavigator } from "@react-navigation/stack";
 
 const Stack = createStackNavigator();
-export default function Login() {
+export default function Login({ navigation }) {
     return (
-        <VStack flex={1} alignItems="center" p={1} justifyContent={"center"}>
-            <Image mb={4} source={Logo} alt="Logo Voll"/>
+        <VStack flex={1} alignItems="center" justifyContent="center" p={5}>
+            <Image source={Logo} alt="Logo Voll" />
 
-            <Title>Faça login em sua conta</Title>
+            <Title>
+                Faça login em sua conta
+            </Title>
             <Box>
                 <InputText
                     label="Email"
@@ -23,16 +25,20 @@ export default function Login() {
                     placeholder="Insira sua senha"
                 />
             </Box>
-            <VButton mt={8}>Entrar</VButton>
-            <Link href='https://www.alura.com.br' mt={2}>Esqueceu sua senha?</Link>
+            <VButton onPress={() => navigation.navigate('Tabs')}>Entrar</VButton>
+
+            <Link href='https://www.alura.com.br' mt={2}>
+                Esqueceu sua senha?
+            </Link>
 
             <Box w="100%" flexDirection="row" justifyContent="center" mt={8}>
-                <Text>Ainda não tem cadastro?</Text>
-                <TouchableOpacity>
-                    <Text color={"blue.500"}>faça seu cadastro</Text>
+                <Text>Ainda não tem cadastro? </Text>
+                <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
+                    <Text color="blue.500">
+                        Faça seu cadastro!
+                    </Text>
                 </TouchableOpacity>
             </Box>
         </VStack>
     );
 }
-
