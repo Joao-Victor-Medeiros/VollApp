@@ -62,6 +62,12 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
 5. Crie a solicitação de pull.
 
+## 📫 Bibliotecas
+
+1. Ionicons: [pesquisar ícone](https://icons.expo.fyi/Index)
+2. Native Base: [documentação](https://docs.nativebase.io/getting-started)
+
+
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
