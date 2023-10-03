@@ -1,4 +1,4 @@
-import {AspectRatio, Box, Center, Heading, HStack, Stack, Text} from "native-base";
+import {Box, Stack} from "native-base";
 import {InputText} from "../components/InputText";
 import {VButton} from "../components/VButton";
 
