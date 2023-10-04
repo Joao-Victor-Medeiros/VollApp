@@ -1,6 +1,5 @@
-import {Avatar, Divider, Image, ScrollView, Text, VStack} from "native-base";
+import {Avatar, Divider, ScrollView, Text, VStack} from "native-base";
 import {Title} from "../components/Title";
-import Logo from "../assets/Logo.png";
 
 export default function Profile() {
     return (
@@ -11,7 +10,7 @@ export default function Profile() {
                 <Title color="blue.500">Informações pessoais</Title>
                 <Title fontSize="lg" mb={1}>João Victor</Title>
                 <Text>15/05/2002</Text>
-                <Text>15/05/2002</Text>
+                <Text>Brasilia-DF</Text>
 
                 <Divider mt={5}/>
 
