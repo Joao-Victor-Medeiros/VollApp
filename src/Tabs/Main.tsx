@@ -1,27 +1,10 @@
-import {Box, Divider, FlatList, Icon, Image, Input, ScrollView, Stack, Text, TextArea, VStack} from "native-base";
+import {Box, Divider, Icon, Image, Input, ScrollView, Stack, Text, VStack} from "native-base";
 import Logo from "../assets/Logo.png";
 import {Title} from "../components/Title";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import {VButton} from "../components/VButton";
-import { testimonies } from "../../utils/TestimoniesMock";
+import {testimonies} from "../../utils/TestimoniesMock";
 
-const data = [{
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item"
-}, {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item"
-}, {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item"
-}, {
-    id: "58694a0f-3da1-471f-bd96-145341e29d72",
-    title: "Third Item"
-}, {
-    id: "58694a0f-3da1-471f-bd96-145571e459d72",
-    title: "Third Item"
-}
-];
 export default function Main() {
     return (
         <ScrollView flex={1}>
