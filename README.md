@@ -24,33 +24,28 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
+* Você instalou a versão mais recente de `nodejs`
 * Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+* Você leu `<>`.
 
 ## 🚀 Instalando <nome_do_projeto>
 
 Para instalar o <nome_do_projeto>, siga estas etapas:
 
-Linux e macOS:
+Linux/macOS/Windows:
 ```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
+<git clone https://github.com/Joao-Victor-Medeiros/VollApp.git>
+<cd VollApp>
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando <VollApp>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar <VollApp>, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+<npm install>
+<npx expo start>
 ```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
 ## 📫 Contribuindo para <nome_do_projeto>
 
@@ -78,25 +73,17 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/53875554?s=400&u=8796e5e7014e7de758b401d14eb4a5310225424e&v=4" width="100px;" alt="Foto dono do repositório e contribuidor"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>João Victor Medeiros</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://avatars.githubusercontent.com/u/54721131?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
+          <b>Andre Cunha</b>
         </sub>
       </a>
     </td>
